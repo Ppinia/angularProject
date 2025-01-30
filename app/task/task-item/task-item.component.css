@@ -1,0 +1,59 @@
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    padding: 1rem;
+  }
+  
+  
+  .card {
+    width: 18rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    background: #fff;
+    
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-body {
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color:  #333; 
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+ 
+  .form-check {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.5rem;
+  }
+  
+  .form-check-input {
+    margin-right: 0.5rem;
+    cursor: pointer;
+  }
+  
+  .form-check-label {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #444;
+  }
+  
